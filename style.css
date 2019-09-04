@@ -1,0 +1,307 @@
+/* GENERAL  */
+body
+{
+  margin: 0;
+}
+
+a
+{
+  color: inherit;
+}
+
+/* OUTLINE */
+
+.body1
+{
+  display: flex;
+  flex-direction: column;
+  background-image: url('what-the-hex-dark.png');
+  height: 100vh;
+}
+
+.body2
+{
+  display: flex;
+  flex-direction: column;
+  background-image: url('what-the-hex.png');
+  height: 100vh;
+}
+
+.body3
+{
+  display: flex;
+  flex-direction: column;
+  background-image: url('what-the-hex-dark.png');
+  height: 50vh;
+}
+
+.body4
+{
+  display: flex;
+  flex-direction: column;
+  background-image: url('what-the-hex.png');
+  height: 100vh;
+}
+
+.body5
+{
+  display: flex;
+  flex-direction: column;
+  background-image: url('what-the-hex-dark.png');
+  height: 15vh;
+}
+
+/* First Page START */
+.main-nav
+{
+  font-family: 'Kosugi Maru', sans-serif;
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  justify-content: space-between;
+  padding-left: 55em;
+  padding-right: 2em;
+  padding-top: 1.5em;
+}
+
+.mainP
+{
+  font-family: 'Noto Serif JP', serif;
+  color: white;
+  font-size: 2.3em;
+  padding-top: 5em;
+  padding-left: 0.8em;
+  margin-bottom: -1em;
+}
+
+.bio
+{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding-left: 2.2em;
+}
+
+.bioH
+{
+  font-family: 'Noto Serif JP', serif;
+  padding-top: 1em;
+  color: black;
+  padding-left: 0.8em;
+  font-size: 2em;
+  margin-top: -1.5em;
+  margin-bottom: -0.3em;
+
+}
+
+.bioP
+{
+  font-family: 'Roboto', sans-serif;
+  padding-left: 1.7em;
+  line-height: 2em;
+  font-size: 1.2em;
+}
+
+.bioT
+{
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  text-indent: 4em;
+  margin-bottom: 1em;
+}
+/* First Page END
+
+/* Second Page START */
+
+.skillH
+{
+  font-family: 'Noto Serif JP', serif;
+  padding-top: 1em;
+  color: black;
+  padding-left: 0.8em;
+  font-size: 2em;
+  margin-top: -1em;
+  margin-bottom: -1em;
+  color: white;
+}
+.lang, .OS, .Others
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  list-style: none;
+  color: white;
+  line-height: 2.5em;
+}
+
+.first, .item, .item1, .item2, .second, .item3, .item4, .item5, .item6
+{
+  display: inline;
+}
+
+.first, .second
+{
+  margin-left: -2.5em;
+  margin-right: 11.1em;
+}
+
+.item
+{
+  padding-right: 8em;
+}
+
+.item1
+{
+  padding-right: 8.3em;
+}
+
+.item2
+{
+  margin-left: -2.5em;
+  padding-right: 8.2em;
+
+}
+
+.item4
+{
+  margin-left: -1.6em;
+  padding-right: 6.4em;
+}
+
+.item5
+{
+  margin-right: 7.8em;
+}
+
+.first, #item0, .second
+{
+  text-decoration: underline;
+}
+
+/* Second Page END */
+
+/* Third Page START */
+.expH
+{
+  font-family: 'Noto Serif JP', serif;
+  padding-top: 1em;
+  color: black;
+  padding-left: 0.8em;
+  font-size: 2em;
+  margin-top: -1.9em;
+  margin-bottom: -1.5em;
+  color: black;
+}
+
+.recentExpH
+{
+  display: flex;
+  justify-content: center;
+}
+
+#title
+{
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 3em;
+}
+
+#subtitle
+{
+  font-family: 'Kosugi Maru', sans-serif;
+  padding-top: 2.6em;
+  padding-left: 0.3em;
+}
+
+.recentD
+{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left:350px;
+  padding-right:285px;
+  margin-bottom: 1.8em;
+}
+
+.others
+{
+  display: grid;
+  grid-row: 1;
+  margin-left: 1em;
+  /* margin-right: 5em; */
+}
+
+.rCross
+{
+  font-family: 'Noto Serif JP', sans-serif;
+  display: grid;
+  grid-row: 1;
+  margin-right: 2em;
+  margin-left: 3em;
+  font-size: auto 0;
+
+}
+
+#rCrossD
+{
+  margin-top: -1em;
+  font-size: 0.7em;
+}
+
+#rCrossD2
+{
+  margin-top: -4em;
+  font-size: 0.7em;
+}
+
+#subtitle1
+{
+  font-family: 'Kosugi Maru', sans-serif;
+  /* padding-left: 0.3em; */
+  font-size: 0.7em;
+}
+
+#subtitle2
+{
+  font-family: 'Kosugi Maru', sans-serif;
+  /* padding-left: 0.3em; */
+  font-size: 0.7em;
+  margin-top: -2em;
+  margin-left: 0.15em;
+}
+
+/* Third Page END */
+
+/* Footer START */
+.sWrap
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -3.8em;
+}
+
+.sMedia
+{
+  width: 50px;
+  length: auto;
+  padding-left: 1em;
+}
+
+.email
+{
+  font-family: 'Kosugi Maru', sans-serif;
+  color: white;
+  margin-left: 2em;
+  margin-top: 0em;
+  font-size: 1.2em;
+}
+
+.emailList
+{
+  list-style: none;
+  line-height: 1.2em;
+}
+
+#langMail
+{
+  font-family: 'Roboto', sans-serif;
+}
+/* Footer END */
