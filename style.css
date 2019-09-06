@@ -50,6 +50,7 @@ a
   background-image: url('what-the-hex-dark.png');
   height: 15vh;
 }
+/* Outline End */
 
 /* First Page START */
 .main-nav
@@ -64,6 +65,7 @@ a
   padding-top: 1.5em;
 }
 
+/*Title Start*/
 .mainP
 {
   font-family: 'Noto Serif JP', serif;
@@ -81,6 +83,7 @@ a
   padding-left: 2.2em;
 }
 
+/*Title End*/
 .bioH
 {
   font-family: 'Noto Serif JP', serif;
@@ -88,8 +91,8 @@ a
   color: black;
   padding-left: 0.8em;
   font-size: 2em;
-  margin-top: -1.5em;
-  margin-bottom: -0.3em;
+  margin-top: -1em;
+  margin-bottom: 0.5em;
 
 }
 
@@ -123,6 +126,7 @@ a
   margin-bottom: -1em;
   color: white;
 }
+
 .lang, .OS, .Others
 {
   font-family: 'Roboto', sans-serif;
@@ -134,7 +138,7 @@ a
 
 .first, .item, .item1, .item2, .second, .item3, .item4, .item5, .item6
 {
-  display: inline;
+    display: inline;
 }
 
 .first, .second
@@ -186,7 +190,7 @@ a
   color: black;
   padding-left: 0.8em;
   font-size: 2em;
-  margin-top: -1.9em;
+  margin-top: -1em;
   margin-bottom: -1.5em;
   color: black;
 }
@@ -217,7 +221,7 @@ a
   flex-wrap: wrap;
   padding-left:350px;
   padding-right:285px;
-  margin-bottom: 1.8em;
+  margin-bottom: 5em;
 }
 
 .others
@@ -304,16 +308,260 @@ a
 {
   font-family: 'Roboto', sans-serif;
 }
-/* Footer END */
 
 
-/* Tablet Landscape */
-@media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}
+@media (max-width: 1441px)
+{
+  .rCross
+  {
+    margin-right: 0em;
+  }
+
+  #rCrossD2
+  {
+    margin-top: -1em;
+    font-size: 0.7em;
+  }
+  #subtitle2
+  {
+    /* padding-left: 0.3em; */
+    margin-top: 0em;
+    margin-left: 0.15em;
+  }
+
+  .item
+  {
+    padding-right: 7.5em;
+  }
+
+  .first, .second
+  {
+    margin-left: -2.4em;
+    margin-right: 9.9 em;
+  }
+
+  .item5
+  {
+    margin-right: 7.3em;
+  }
+
+  .item2
+  {
+    margin-right: -0.5em;
+  }
+
+  .body3
+  {
+    height: 20em;
+  }
 }
-/* Tabled Portrait */
-@media screen and (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
-} 
+
+@media (max-width: 376px)
+{
+  .main-nav
+  {
+    padding-left: 2em;
+  }
+
+  .mainP
+  {
+    font-size: 2em;
+  }
+
+  .bio
+  {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-left: 1.8em;
+  }
+
+  .bioP
+  {
+    padding-left: 0.5em;
+    margin-right: 0.1em;
+    line-height: 1.2em;
+    font-size: 1em;
+  }
+
+  .bioT
+  {
+    text-indent: 1  em;
+    margin-bottom: 1em;
+  }
+
+  .skillH
+  {
+    margin-top: -1.5em;
+    margin-bottom: -0.5em;
+    color: white;
+  }
+
+  .first, .item, .item1, .item2, .second, .item3, .item4, .item5, .item6
+  {
+    display: inline;
+  }
+
+  .lang, .OS, .Others
+  {
+    font-size: 0.9em;
+    color: white;
+    line-height: 2.5em;
+  }
+
+  .item
+  {
+    margin-left: -1em;
+    margin-right: 1.1em;
+  }
+
+  .first, .second
+  {
+    margin-left: -1em;
+    margin-right: 3.2em;
+  }
+
+  .second
+  {
+    margin-left: -1em;
+    margin-right: 1.7em;
+  }
+
+  .item
+  {
+    padding-right: 0em;
+  }
+
+  .item1
+  {
+    padding-right: 0em;
+  }
+
+  .item2
+  {
+    margin-left: 0em;
+    padding-right: 0.5em;
+
+  }
+
+  .item4
+  {
+    margin-left: 0em;
+    padding-right: 0.5em;
+  }
+
+  .item5
+  {
+    margin-right: 0em;
+  }
+
+
+
+
+
+
+  .expH
+  {
+    padding-top: 0.5em;
+    color: black;
+    margin-bottom: -0.3em;
+    /* padding-left: 0.8em;
+    font-size: 2em;
+    margin-top: -1em;
+    margin-bottom: -1.5em;
+    color: black; */
+  }
+
+  #title
+  {
+    font-size: 0.9em;
+    margin-left: -6em;
+  }
+
+  #subtitle
+  {
+    font-size: 0.6em;
+    margin-top: 0.7em;
+    padding-top: 0.2em;
+  }
+
+  .recentD
+  {
+    padding-left:1em;;
+    padding-right: 0em;
+    margin-bottom: 5em;
+    font-size: 0.6em;
+  }
+
+  .others
+  {
+    margin-left: -1.8em;
+    /* margin-right: 10em; */
+  }
+
+  .rCross
+  {
+    display: grid;
+    margin-right: 2em;
+    margin-left: 3em;
+    font-size: 0.7em;
+  }
+
+  #subtitle1
+  {
+    /* padding-left: 0.3em; */
+    font-size: 0.6em;
+    margin-top: 1em;
+    margin-right: -2em;
+  }
+
+  #rCrossD
+  {
+    margin-top: -0.5em;
+    font-size: 0.7em;
+    margin-right: -4em;
+  }
+
+  #rCrossD2
+  {
+    margin-top: -3em;
+    font-size: 0.7em;
+    margin-right: -3em;
+  }
+
+  #subtitle2
+  {
+    font-family: 'Kosugi Maru', sans-serif;
+    /* padding-left: 0.3em; */
+    font-size: 0.7em;
+    margin-top: -1.5em;
+    margin-left: 0.15em;
+  }
+
+  #titleExp
+  {
+    margin-right: -2em;
+  }
+
+  .email
+  {
+    margin-left: -1em;
+    margin-top: 1.5em;
+    font-size: 0.9em;
+  }
+
+  .sMedia
+  {
+    padding-top: 1em;
+    width: 35px;
+    padding-left: 1em;
+  }
+
+  #linkedinLink
+  {
+    padding-left: 17em;
+  }
+
+
+}
+
+/* Footer END */
