@@ -127,6 +127,28 @@ a
   color: white;
 }
 
+.skillP
+{
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row;
+}
+
+.item, .content
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  list-style: none;
+  color: white;
+  line-height: 2.5em;
+}
+
+.item
+{
+  margin-left: 5em;
+  text-decoration: underline;
+}
+/*
 .lang, .OS, .Others
 {
   font-family: 'Roboto', sans-serif;
@@ -178,7 +200,7 @@ a
 .first, #item0, .second
 {
   text-decoration: underline;
-}
+} */
 
 /* Second Page END */
 
@@ -229,6 +251,7 @@ a
   display: grid;
   grid-row: 1;
   margin-left: 1em;
+  margin-bottom: 1em;
   /* margin-right: 5em; */
 }
 
@@ -279,7 +302,7 @@ a
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: -3.8em;
+    margin-top: -2.8em;
 }
 
 .sMedia
@@ -309,6 +332,7 @@ a
   font-family: 'Roboto', sans-serif;
 }
 
+/* Footer END */
 
 @media (max-width: 1441px)
 {
@@ -453,11 +477,6 @@ a
   {
     margin-right: 0em;
   }
-
-
-
-
-
 
   .expH
   {
