@@ -1,77 +1,82 @@
 /* GENERAL  */
 body
 {
-  /* margin: 0%;
-  padding: 0% */
+  margin: 0%;
+  padding: 0%;
 }
 
-/* OUTLINE */
+a
+{
+  color: inherit;
+}
 
 .container
 {
-    /* background-image: url('what-the-hex-dark.png'); */
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    text-align: left;
-    grid-gap: 1%;
-    grid-column: 1/-1;
-}
-
-.body1
-{
   display: grid;
-  grid-template-columns: 1/-1;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 5fr;
   text-align: left;
-  height: 100vh
-    /* background-image: url('what-the-hex-dark.png'); */
-}
-
-.main-nav
-{
-  display: grid;
-  justify-content: flex-end;
-  grid-template-columns: 0.05fr 0.05fr 0.08fr 0.05fr 0.05fr;
-  grid-gap: 1%;
-  padding-top: 1%;
-  padding-right: 2%;
 }
 
 .mainP
 {
   display: grid;
-  justify-content: flex-start;
-  grid-template-rows: 0fr 0fr;
-  padding-left: 5%;
+  grid-template-columns: 1/-1;
+  grid-template-rows: 0fr 0.1fr 0.1fr 0.1fr 0.4fr;
+  height: 100vh;
 }
 
-.body2
-{
-  display: grid;
-  grid-template-columns: 1/-1;
-  grid-template-rows: 0fr 0fr;
-  text-align: left;
-  height: 100vh
-    /* background-image: url('what-the-hex-dark.png'); */
+.ProfPic{
+  object-fit: cover;
+  width: 95%;
+  -webkit-border-radius: 100%;
+  padding: 2%;
 }
 
-.body3
+.navName
 {
-  display: grid;
-  grid-template-columns: 1/-1;
-  grid-template-rows: 1fr 1fr;
-  text-align: left;
-  height: 100vh
-    /* background-image: url('what-the-hex-dark.png'); */
+  display: flex;
+  font-size: 150%;
+  align-content: center;
+  justify-content: center;
 }
 
-.body4
+.navEmail
+{
+  display: flex;
+  font-size: 75%;
+  align-content: center;
+  justify-content: center;
+}
+
+.navContact
 {
   display: grid;
-  grid-template-columns: 1/-1;
-  grid-template-rows: 1fr 1fr;
-  text-align: left;
-  height: 100vh
-    /* background-image: url('what-the-hex-dark.png'); */
+  list-style: none;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 15%;
+  padding-right: 10%;
 }
+
+
+.main-nav
+{
+  display: grid;
+  list-style: none;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10%;
+}
+
+.ProfileSection
+{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.ProfileSectionTitle
+{}
+
+.ProfileSectionSubtitle
+{}
+
+.ProfileSectionTbox
+{}
