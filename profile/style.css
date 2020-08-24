@@ -1,0 +1,82 @@
+/* GENERAL  */
+body
+{
+  margin: 0%;
+  padding: 0%;
+}
+
+a
+{
+  color: inherit;
+}
+
+.container
+{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  text-align: left;
+}
+
+.mainP
+{
+  display: grid;
+  grid-template-columns: 1/-1;
+  grid-template-rows: 0fr 0.1fr 0.1fr 0.1fr 0.4fr;
+  height: 100vh;
+}
+
+.ProfPic{
+  object-fit: cover;
+  width: 95%;
+  -webkit-border-radius: 100%;
+  padding: 2%;
+}
+
+.navName
+{
+  display: flex;
+  font-size: 150%;
+  align-content: center;
+  justify-content: center;
+}
+
+.navEmail
+{
+  display: flex;
+  font-size: 75%;
+  align-content: center;
+  justify-content: center;
+}
+
+.navContact
+{
+  display: grid;
+  list-style: none;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 15%;
+  padding-right: 10%;
+}
+
+
+.main-nav
+{
+  display: grid;
+  list-style: none;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10%;
+}
+
+.ProfileSection
+{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.ProfileSectionTitle
+{}
+
+.ProfileSectionSubtitle
+{}
+
+.ProfileSectionTbox
+{}
