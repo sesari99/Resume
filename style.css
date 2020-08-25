@@ -31,7 +31,7 @@ h1,h2,h3
 {
   display: grid;
   grid-template-columns: 1/-1;
-  grid-template-rows: 0fr 0.1fr 0.1fr 0.1fr 0.4fr;
+  grid-template-rows: 0fr 0.1fr 0.1fr 0.1fr 0.1fr 0.4fr;
   height: auto;
   width: auto;
 }
@@ -59,6 +59,15 @@ h1,h2,h3
   align-content: center;
   justify-content: center;
   text-decoration-line: underline;
+}
+
+.navPhone
+{
+  display: flex;
+  font-size: 85%;
+  align-content: center;
+  justify-content: center;
+  margin-top: 1%;
 }
 
 .navContact
@@ -140,4 +149,48 @@ h1,h2,h3
   list-style: none;
   padding: 0;
   /* text-align:center; */
+}
+
+.PortfolioSection
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr 0.5fr;
+}
+
+.projectItem
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.projectList
+{
+  list-style: none;
+}
+
+.projectTitle
+{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.projectDescription
+{
+  text-align: left;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.projectDocument
+{
+
+}
+
+.portfolioWebTitle
+{
+  text-indent: 3%;
 }
