@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>sesario</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <script type="text/javascript" src = "code.js"> </script>
+<link href="https://fonts.googleapis.com/css?family=Kosugi+Maru|Noto+Serif+JP|Roboto&display=swap" rel="stylesheet">
+<body>
+  <div class = "container">
+
+      <div class = "mainP" style="background-image: url('what-the-hex-dark.png');">
+        <!-- <div class = "ProfPic"> <h1 style="color: white">profpic</h1> </div> -->
+        <div><img class="ProfPic" src="ProfPic.jpg"/></div>
+        <!-- <h1 style="color: white;"> pee </h1> -->
+        <h1 style="color: white;" class = "navName"> Sesario Imanputra </h1>
+
+        <p1 style="color: white;" class = "navEmail"> sesario.hiroyuki99@gmail.com </p1>
+        <p1 style="color: white;" class = "navPhone"> 206-816-5791</p1>
+
+        <ul class = "navContact">
+          <li> <a href="https://www.linkedin.com/in/sesari/"><img src="linkedin.png" style="width: 64px"/></a></li>
+          <li> <a href="https://github.com/sesari99"><img src="github.png" style="width: 64px"/></a></li>
+        </ul>
+
+        <ul class = "main-nav">
+          <li> <a href="https://sesari99.github.io/Resume/" style="color:white">Resume</a></li>
+          <li> <a href="https://sesari99.github.io/Resume/profile" style="color:white">Profile</a></li>
+          <li> <a href="https://sesari99.github.io/Resume/Portfolio" style="color:white">Portfolio</a></li>
+        </ul>
+      </div>
+
+    <!-- <div class = "ResumeSection">
+      <embed src="Resume.pdf" type = "application/pdf" width="100%" height="100%"/>
+    </div> -->
+<!--
+    <div class = "ProfileSection"  style="background-image: url('what-the-hex.png');">
+      <h1 style="color: black;"class = "ProfileSectionTitle"> Profile </h1>
+      <h2 style="color: black;"class = "ProfileSectionSubtitle"> Bio </h2>
+      <p1 style="color: black;"class = "ProfileSectionTbox"> Born in Indonesia, went to high school in Qatar, and now currently studying in University of Washington - Bothell with the aim of obtaining a Bachelor of Science
+    in Computer Science and Software Engineering. During my time studying the field of Computer Science and Software Engineering for over 4 years, I have grown a passion
+    for the technicalities in the software industry, such as programming and structuring softwares. Recently, I have also grown a passion for the functionalities in software industry,
+    specifically as a QA Analyst, after an internship experience with Accenture on a Data Migration Project. As an academic, I have opened up myself to many experiences, such as participating in
+    international competitions, being the co-creator and vice president of a local Red Cross Club, and the aforementioned internship experience. With these experiences, I managed to enforce my
+    soft skills in leadership, negotiation, public speaking, and communication while expanding my technical skill set of approaching and visualizing big data. Currently I have a year left
+    before I obtain my degree. Yet, I have yet to find a field or topic of work that would immerse me as much equally as I would be when crafting music and videos during my leisure.
+    Thus, although my academic goal is to get a degree, my personal goal is to find opportunities in which I can experience the different aspects of the industry.
+ </p1>
+      <h2 style="color: black;"class = "ProfileSectionSubtitle"> Education </h2>
+      <ul class = "ProfileSectionTbox2">
+        <li><img src="shoreline.png" style="width: 128px" class="pictureEdu" style="padding-bottom: 10px;"/>
+          <ul class = "EduDescription">
+              <li> Shoreline Community College </li>
+              <li> June 2016 - June 2018 </li>
+              <li> Associates of Arts </li>
+              <li> Honors List: Winter 2018 </li>
+          </ul>
+        </li>
+        <li><img src="UWB.png" style="width: 100px" class="pictureEdu"/>
+          <ul class = "EduDescription">
+            <li> University of Washington - Bothell </li>
+            <li> September 2018 - December 2020 </li>
+            <li> Bachelor of Science in Computer Science and Software Engineering </li>
+            <li> Dean’s List: Spring 2019 </li>
+            <li> achievements </li>
+          </ul>
+        </li>
+      </ul>
+    </div> -->
+    <div  style="background-image: url('what-the-hex.png');">
+       <h1 style="color: black;" class="portfolioWebTitle"> Portfolio </h1>
+        <div class = "PortfolioSection">
+          <div class = projectItem>
+            <ul class = "projectList">
+              <li class = "projectTitle">EYE Center Disassembler</li>
+              <li class = "projectDescription">EYE Center for Children’s Vision, Learning and Technology is a service that diagnoses and
+                                                    treats children with visual dysfunction. My role is to manage the back-end system, ensure that all
+                                                    HIPAA compliances are met, and create more API services if needed. Managing includes
+                                                    performance testing REST API using a mixture of Jmeter and Jenkins, redesigning API calls to
+                                                    support heavy loads of users, scaling up AWS environment using data generated from testing
+                                                    and CloudWatch, and merging new web applications to the current AWS environment. Tasks
+                                                    related to complying with HIPAA includes encrypting the database at rest and in transit, setting
+                                                    reverse proxy with nginx, and implementing data recovery procedures.</a></li>
+                                                    <li class = "projectDocument"> <a href=""> Documentation Unavailable</a></li>
+            </ul>
+          </div>
+          <div class = projectItem>
+            <ul class = "projectList">
+              <li class = "projectTitle">68k Disassembler</li>
+              <li class = "projectDescription"> Project converts a specified memory's content to a listing of valid assembly language instructions to 68k assembly langauge. The program begins by parsing the op-code word of the instruction and then decides how many additional words of memory need to be read in order to complete the instruction. The result of the conversion is printed out as ASCII format, which is done by converting binary information to hex. The program accepts these opcodes as valid: NOP, MOVE, MOVEM, ADD, SUB, MULS, DIVU, LEA, AND, NOT, Bcc, JSR, RTS, AND BRA. The program accepts these effective addressing as valid: data register direct, address register indirect/direct, immediate addressing, pre/post increment addressing, and word/long addressing.</a></li>
+              <li class = "projectDocument"> <a href="422dDoc.pdf">Download Documentation</a></li>
+            </ul>
+          </div>
+          <div class = projectItem>
+            <ul class = "projectList">
+              <li class = "projectTitle">Usability and User-Centered Reasearch on Foundry10</li>
+              <li class = "projectDescription"> The research is focused in the interaction between academic users and Foundry10’s website with the to create a new optimized iteration of the website. Methods covered in this research includes hunt statement, stakeholder interviews, persona analysis, competitor analysis, usability test, and a mockup.</a></li>
+              <li class = "projectDocument"> <a href="FoundDoc.pdf">Download Documentation</a></li>
+            </ul>
+          </div>
+          <div class = projectItem>
+            <ul class = "projectList">
+              <li class = "projectTitle">Redesigning UW's Interactive Registration System</li>
+              <li class = "projectDescription">Project involves the design and rapid prototyping of an actual application interface using methods that support the PACT (People, Activities, Contexts and Technologies) approach to interface design.  The goal is to create a “next generation” application that meets the real needs of students.</a></li>
+              <li class = "projectDocument"> <a href="480Doc.pdf">Download Documentation</a></li>
+            </ul>
+          </div>
+          <div class = projectItem>
+            <ul class = "projectList">
+              <li class = "projectTitle">Architecting a Ride Sharing Service for Automated Vehicles</li>
+              <li class = "projectDescription">Project is based on  progress during a design and analysis system workshop given using an idea of an application as the base case. In this case, our base case applicatoin is a ride sharing service, that exclusively uses automated vehicles (i.e. self driving cars). The document covers various stages of implementing a system, such as FR, NFR, domain models, use cases, ERD, wireframing, UML class diagram, sequence diagram, activity diagram, DFD Diagram, architectureal styles, and threat modelling </a></li>
+              <li class = "projectDocument"> <a href="370Doc.pdf">Download Documentation</a></li>
+            </ul>
+          </div>
+          <div class = projectItem>
+            <ul class = "projectList">
+              <li class = "projectTitle">ECO Apparell: Developing a Database Related Application</li>
+              <li class = "projectDescription">Project delivers a completed database-related application that uses important concepts covered in the analysis, design of a physical and manipulation and retrieval of data for a database. The application for this project is a website which catalogues eco-friendly apparels by leading companies in the clothing industry. AWS is used to host the application, which includes an Apache HTTP server and a mySQL database.</a></li>
+              <li class = "projectDocument"> <a href="dbDoc.pdf">Download Documentation</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+
+    <!-- <div class = "SkillSection">
+    <h1 style="color: black;"> Sesario Imanputra </h1>
+    </div> -->
+
+    <!-- <div class = "ExperienceSection">
+    <h1 style="color: black;"> Sesario Imanputra </h1>
+    </div> -->
+
+
+
+  </div>
+
+
+</body>
+</html>

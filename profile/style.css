@@ -10,11 +10,21 @@ a
   color: inherit;
 }
 
+h1,h2,h3
+{
+  padding: 0;
+  margin: 0;
+  margin-top: 5%;
+}
+
 .container
 {
   display: grid;
   grid-template-columns: 1fr 5fr;
   text-align: left;
+  width: auto;
+  height: auto;
+  height: 100vh;
 }
 
 .mainP
@@ -22,7 +32,8 @@ a
   display: grid;
   grid-template-columns: 1/-1;
   grid-template-rows: 0fr 0.1fr 0.1fr 0.1fr 0.4fr;
-  height: 100vh;
+  height: auto;
+  width: auto;
 }
 
 .ProfPic{
@@ -38,23 +49,32 @@ a
   font-size: 150%;
   align-content: center;
   justify-content: center;
+  font-weight: bold;
 }
 
 .navEmail
 {
   display: flex;
-  font-size: 75%;
+  font-size: 85%;
   align-content: center;
   justify-content: center;
+  text-decoration-line: underline;
 }
 
 .navContact
 {
-  display: grid;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0;
+
+  /* display: grid;
   list-style: none;
   grid-template-columns: 1fr 1fr;
   padding-left: 15%;
-  padding-right: 10%;
+  padding-right: 10%; */
 }
 
 
@@ -63,20 +83,61 @@ a
   display: grid;
   list-style: none;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 10%;
+  grid-template-columns: 1/-1;
+  grid-gap: 20%;
 }
 
 .ProfileSection
 {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1/-1;
+  grid-template-rows: 0.1fr 0.1fr 0.5fr 0.1fr 0.6fr;
+  height: 100vh auto;
+  width: auto;
 }
 
 .ProfileSectionTitle
-{}
+{
+  margin-top: 3%;
+  text-indent: 5%;
+  text-decoration-line: underline;
+  font-weight: bold;
+}
 
 .ProfileSectionSubtitle
-{}
+{
+  text-indent: 10%;
+  text-decoration-line: underline;
+}
 
 .ProfileSectionTbox
-{}
+{
+  margin-left: 10%;
+}
+
+.ProfileSectionTbox2
+{
+  display: flex;
+  list-style: none;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: flex-start;
+  /* grid-template-columns: 1fr 1fr; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  /* grid-template-rows: 1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr; */
+}
+
+.pictureEdu
+{
+}
+
+.EduDescription
+{
+  list-style: none;
+  padding: 0;
+  /* text-align:center; */
+}
