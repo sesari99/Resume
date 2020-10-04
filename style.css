@@ -27,13 +27,24 @@ h1,h2,h3
   height: 100vh;
 }
 
+.textContainer
+{
+  height: 100vh auto;
+  width: auto;
+  background-image: url('what-the-hex-dark.png');
+  height: auto;
+  width: auto;
+}
+
 .mainP
 {
   display: grid;
   grid-template-columns: 1/-1;
-  grid-template-rows: 0fr 0.1fr 0.1fr 0.1fr 0.1fr 0.4fr;
+  grid-template-rows: 0fr 0.1fr 0.1fr 0.1fr 0.1fr 0.2fr
   height: auto;
   width: auto;
+  text-align: center;
+  grid-gap: 2%;
 }
 
 .ProfPic{
@@ -59,6 +70,8 @@ h1,h2,h3
   align-content: center;
   justify-content: center;
   text-decoration-line: underline;
+  justify-content: center;
+  align-items: center;
 }
 
 .navPhone
@@ -68,6 +81,8 @@ h1,h2,h3
   align-content: center;
   justify-content: center;
   margin-top: 1%;
+  justify-content: center;
+  align-items: center;
 }
 
 .navContact
@@ -91,9 +106,11 @@ h1,h2,h3
 {
   display: grid;
   list-style: none;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1/-1;
-  grid-gap: 20%;
+  grid-gap: 50%;
+  margin-right: 15%;
+  height: auto;
 }
 
 .ProfileSection
@@ -193,4 +210,73 @@ h1,h2,h3
 .portfolioWebTitle
 {
   text-indent: 3%;
+}
+
+.dlResuume
+{
+  display: none;
+}
+
+@media only screen
+  and (max-device-height: 414px)
+  and (max-device-width: 812px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .ProfPic{
+      object-fit: cover;
+      width: 20%;
+      -webkit-border-radius: 100%;
+      padding: 2%;
+    }
+    .ResumeSection, .showResume
+    {
+      display: none;
+    }
+    .dlResuume
+    {
+      display: block;
+    }
+    .container
+    {
+      grid-template-columns: 1fr;
+    }
+    .mainP
+    {
+      grid-gap: 0%;
+    }
+    .main-nav
+    {
+      margin-left: 10%;
+      grid-gap: 5%;
+    }
+
+}
+
+@media only screen
+  and (max-device-height: 812px)
+  and (max-device-width: 414px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .ProfPic{
+      object-fit: cover;
+      width: 40%;
+      -webkit-border-radius: 100%;
+      padding: 5%;
+    }
+    .ResumeSection, .showResume
+    {
+      display: none;
+    }
+    .dlResuume
+    {
+      display: block;
+    }
+    .container
+    {
+      grid-template-columns: 1fr;
+    }
+    .textContainer
+    {
+      height: 108%;
+    }
 }
